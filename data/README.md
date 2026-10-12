@@ -6,12 +6,14 @@ Isi informasi berikut sebelum Milestone 1.
 
 | Item | Isi |
 |---|---|
-| Nama dataset | `[isi nama dataset]` |
-| Sumber | `[URL BPS / Satu Data Indonesia / BMKG / HuggingFace / Kaggle]` |
-| Lisensi/ketentuan pakai | `[isi]` |
-| Ukuran | `[>= 500 MB atau > 1.000.000 baris]` |
-| Periode data | `[isi]` |
-| Unit analisis | `[isi]` |
+| Nama dataset | `[MedFact-Synth]` |
+| Sumber | `[https://huggingface.co/datasets/Xingchi888/MedFact-Synth (duplikat dari nlm-dir/MedFact-Synth)]` |
+| Lisensi/ketentuan pakai | `[MIT]` |
+| Ukuran | `[1.497.981 baris; 17 file Parquet (train-00000 s.d. train-00016 of 00017), ~3,3 GB]` |
+| Periode data | `[Artikel PubMed baseline 2025; dataset dirilis Maret 2026 (tanpa kolom tanggal)]` |
+| Unit analisis | `[Pasangan klaim biomedis dan artikel sumber (PubMed) beserta skor kesesuaian -2 s.d. 2 (synthetic_label)]` |
+
+Kolom: `idx`, `claim_pmid`, `claim_potential`, `claim`, `source_pmid`, `source`, `synthetic_label`, `system_prompt`, `user_prompt`, `assistant_prompt`.
 
 ## Tempat Mencari Dataset
 
